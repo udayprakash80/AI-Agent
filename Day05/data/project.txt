@@ -1,0 +1,11 @@
+Project Name: Smart Library system
+Project Duration: January 2022 to March 2022
+Programming Language: Python
+Database: SQLite
+Framework: Django
+Version Control: Git
+Deployment: Heroku
+developer: udaya bihari, Jyoti Gupta, Ujjwal Bhagat
+Project Owner: udaya bihari
+Project Manager: Pankaj sukla
+Project Team: 3

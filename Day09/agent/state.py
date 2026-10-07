@@ -4,7 +4,7 @@ def create_state(user_request, max_steps=5):
         "current_step": 0,
         "max_steps": max_steps,
         "actions": [],
-        "observation": "",
+        "observations": [],
         "finished": False,
         "final_answer": ""
     }
@@ -14,7 +14,7 @@ def add_action(state, action):
 
 
 def record_observation(state, action, observation):
-    state["observation"].append({
+    state["observations"].append({
         "step": state["current_step"],
         "action": action,
         "observation": observation

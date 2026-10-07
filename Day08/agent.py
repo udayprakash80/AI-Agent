@@ -2,6 +2,7 @@ import asyncio
 
 from openai import OpenAI
 from dotenv import load_dotenv
+from state import create_state, add_action, record_observation, next_step, can_continue, finish
 import os
 
 
